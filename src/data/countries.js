@@ -1,3 +1,4 @@
+// note: countries list string splitted into array
 const countries = `
 Afghanistan
 Albania
@@ -195,6 +196,6 @@ Vietnam
 Yemen
 Zambia
 Zimbabwe
-`.split('\n');  // split string into array
+`.split("\n"); // split string into array
 
 export default countries; // return array list
