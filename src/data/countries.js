@@ -1,6 +1,5 @@
 // note: countries list string splitted into array
-const countries = `
-Afghanistan
+const countries = `Afghanistan
 Albania
 Algeria
 Andorra
@@ -195,7 +194,6 @@ Venezuela
 Vietnam
 Yemen
 Zambia
-Zimbabwe
-`.split("\n"); // split string into array
+Zimbabwe`.split("\n"); // split string into array
 
 export default countries; // return array list
