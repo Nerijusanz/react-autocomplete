@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import countries from "../data/countries";
 
 class Autocomplete extends Component {
   state = {
@@ -15,7 +14,7 @@ class Autocomplete extends Component {
   };
 
   initAutocomplete = () => {
-    if (countries.length > 0) this.setState({ items: countries });
+    if (this.props.items.length > 0) this.setState({ items: this.props.items });
   };
 
   changeHandler = e => {
@@ -67,7 +66,6 @@ class Autocomplete extends Component {
   render() {
     return (
       <div>
-        <h1 className="title">Autocomplete</h1>
         <div className="autocomplete">
           <input
             type="text"
