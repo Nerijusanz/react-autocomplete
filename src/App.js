@@ -1,12 +1,13 @@
 import React, { Component } from "react";
-
 import "./App.css";
+
+import Autocomplete from "./components/Autocomplete";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>autocomplete</h1>
+        <Autocomplete />
       </div>
     );
   }
